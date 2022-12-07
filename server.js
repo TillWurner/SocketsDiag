@@ -2,7 +2,8 @@
 //npm i @socket.io/admin-ui     No deja instalar la dependencia del control de admin
 const io = require('socket.io') (3000 , {
     cors:{
-        origin: ["http://localhost:8080"],
+        origin: ["http://107.20.38.90"],
+        /* origin: ["http://localhost:8080"], */
         //origin: ["http://localhost:8080", "https://admin.socket.io"], No funciona aun porque no se instalo el admin-ui
     }
 })
